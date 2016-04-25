@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>task37 浮出层UI组件的实现</title>
+    <link rel="stylesheet" href="css/Popup.css">
+</head>
+
+<body>
+    <button id="alert-btn">黄金星辰</button>
+    <p class="test">test</p>
+    <p class="test">test</p>
+    <p class="test">test</p>
+    <div class="div-1000-height"></div>
+    <script type="text/javascript" src="js/Popup.js"></script>
+    <script type="text/javascript">
+    var btn = document.getElementById("alert-btn");
+    btn.onclick = function() {
+        Popup.alert(function(e) {}, {
+            type: "黄金星辰",
+            pic_src: "img/2_64003.jpg",
+            kind: "皮肤 ",
+            kind_name: "龙的传人 李青"
+        })
+    }
+    </script>
+</body>
+
+</html>

@@ -5,10 +5,6 @@
 
 body {}
 
-.test {
-    font-size: 400px;
-}
-
 .mask {
     background: #0B081D;
     position: fixed;
@@ -125,7 +121,3 @@ body {}
     background-position: -963px -132px;
 }
 
-.div-1000-height {
-    height: 1000px;
-    width: 100%;
-}
